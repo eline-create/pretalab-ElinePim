@@ -13,7 +13,7 @@ jobs:
       script: skip
       deploy:
         provider: heroku
-        api_key: $HEROKU_API
+        api_key: HEROKU_API
         app: pretalab-devops-eline
         on: main
       
