@@ -7,13 +7,12 @@ jobs:
     - stage: build
       name: Build da aplicação JavaScript
       script: npm install
-
     - stage: deploy
       name: Conecta no Heroku e faz o deploy
       script: skip
       deploy:
         provider: heroku
-        api_key: HEROKU_API
+        api_key: $HEROKU_API
         app: pretalab-devops-eline
         on: main
       
