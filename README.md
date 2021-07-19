@@ -1,1 +1,1 @@
-# pretalab-ElinePim
+# Desenvolvimento de Aplicação utilizando passo DevOps
